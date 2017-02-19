@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { blogModel } from './models/index';
+import { blogModel } from '../models';
 
 @Component({
     selector:'app-body',
@@ -12,8 +12,6 @@ export class BodyComponent{
     constructor(){
         this.blog = new blogModel();
     }
-
-
 }
 
 
