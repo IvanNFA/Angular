@@ -1,0 +1,8 @@
+<h1>{{blog.titulo}}</h1>
+<div class="jumbotron" *ngFor="let post of blog.posts">
+        <h2>{{post.titulo}}</h2>
+        <p>{{post.texto}}</p>
+        <p>
+          <a class="btn btn-sm btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
+        </p>
+</div>
