@@ -1,16 +1,16 @@
 import { Component } from '@angular/core';
-import { blogModel } from '../models';
+import { BlogModel } from '../models/blog.model';
 
 @Component({
-    selector:'app-body',
-    templateUrl: 'app/body.component.html'
+    selector: 'app-body',
+    templateUrl: 'app/components/body.component.html'
 })
 
-export class BodyComponent{
-    blog : blogModel
+export class BodyComponent {
+    blog: BlogModel;
 
-    constructor(){
-        this.blog = new blogModel();
+    constructor() {
+        this.blog = new BlogModel();
     }
 }
 

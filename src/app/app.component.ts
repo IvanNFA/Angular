@@ -1,7 +1,4 @@
 import { Component } from '@angular/core';
-import { NavbarComponent ,BodyComponent } from './components';
-
-
 
 @Component({
   selector: 'my-app',
@@ -18,6 +15,7 @@ import { NavbarComponent ,BodyComponent } from './components';
   <body>
       <app-navbar></app-navbar>
       <app-body></app-body>
+      
   </body>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </html>`,

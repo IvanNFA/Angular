@@ -1,3 +1,3 @@
-//Barrels
-export * from './blog.model';  
-export * from './post.model';  
+// Barrels
+export * from './blog.model';
+export * from './post.model';
